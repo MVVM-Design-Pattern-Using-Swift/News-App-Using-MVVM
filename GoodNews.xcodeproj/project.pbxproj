@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		27A5E73728CE34D1003B9C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E73628CE34D1003B9C36 /* AppDelegate.swift */; };
 		27A5E73928CE34D1003B9C36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E73828CE34D1003B9C36 /* SceneDelegate.swift */; };
-		27A5E73B28CE34D1003B9C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E73A28CE34D1003B9C36 /* ViewController.swift */; };
 		27A5E73E28CE34D1003B9C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A5E73C28CE34D1003B9C36 /* Main.storyboard */; };
 		27A5E74028CE34D2003B9C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A5E73F28CE34D2003B9C36 /* Assets.xcassets */; };
 		27A5E74328CE34D2003B9C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A5E74128CE34D2003B9C36 /* LaunchScreen.storyboard */; };
 		27A5E74E28CE34D2003B9C36 /* GoodNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E74D28CE34D2003B9C36 /* GoodNewsTests.swift */; };
 		27A5E75828CE34D2003B9C36 /* GoodNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E75728CE34D2003B9C36 /* GoodNewsUITests.swift */; };
 		27A5E75A28CE34D2003B9C36 /* GoodNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E75928CE34D2003B9C36 /* GoodNewsUITestsLaunchTests.swift */; };
+		27A5E76828CE3589003B9C36 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E76728CE3589003B9C36 /* NewsListTableViewController.swift */; };
+		27A5E76B28CE3B6F003B9C36 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 27A5E76A28CE3B6F003B9C36 /* Then */; };
+		27A5E76E28CE3B8D003B9C36 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E76D28CE3B8D003B9C36 /* WebService.swift */; };
+		27A5E77128CE3BBC003B9C36 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 27A5E77028CE3BBC003B9C36 /* SnapKit */; };
+		27A5E77428CE3E72003B9C36 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E77328CE3E72003B9C36 /* Article.swift */; };
+		27A5E77728CE42BB003B9C36 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 27A5E77628CE42BB003B9C36 /* Alamofire */; };
+		27A5E77A28CE476A003B9C36 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E77928CE476A003B9C36 /* ArticleViewModel.swift */; };
+		27A5E77F28CE4B91003B9C36 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5E77E28CE4B91003B9C36 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,6 @@
 		27A5E73328CE34D1003B9C36 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A5E73628CE34D1003B9C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A5E73828CE34D1003B9C36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27A5E73A28CE34D1003B9C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27A5E73D28CE34D1003B9C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27A5E73F28CE34D2003B9C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27A5E74228CE34D2003B9C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,11 @@
 		27A5E75328CE34D2003B9C36 /* GoodNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A5E75728CE34D2003B9C36 /* GoodNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsUITests.swift; sourceTree = "<group>"; };
 		27A5E75928CE34D2003B9C36 /* GoodNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27A5E76728CE3589003B9C36 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		27A5E76D28CE3B8D003B9C36 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		27A5E77328CE3E72003B9C36 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		27A5E77928CE476A003B9C36 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		27A5E77E28CE4B91003B9C36 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A5E77728CE42BB003B9C36 /* Alamofire in Frameworks */,
+				27A5E76B28CE3B6F003B9C36 /* Then in Frameworks */,
+				27A5E77128CE3BBC003B9C36 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +113,14 @@
 		27A5E73528CE34D1003B9C36 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				27A5E77D28CE4B7F003B9C36 /* Cells */,
+				27A5E77828CE4748003B9C36 /* ViewModels */,
+				27A5E77228CE3E5F003B9C36 /* Models */,
+				27A5E76C28CE3B7A003B9C36 /* Services */,
+				27A5E76628CE356E003B9C36 /* Controllers */,
+				27A5E73C28CE34D1003B9C36 /* Main.storyboard */,
 				27A5E73628CE34D1003B9C36 /* AppDelegate.swift */,
 				27A5E73828CE34D1003B9C36 /* SceneDelegate.swift */,
-				27A5E73A28CE34D1003B9C36 /* ViewController.swift */,
-				27A5E73C28CE34D1003B9C36 /* Main.storyboard */,
 				27A5E73F28CE34D2003B9C36 /* Assets.xcassets */,
 				27A5E74128CE34D2003B9C36 /* LaunchScreen.storyboard */,
 				27A5E74428CE34D2003B9C36 /* Info.plist */,
@@ -127,6 +145,46 @@
 			path = GoodNewsUITests;
 			sourceTree = "<group>";
 		};
+		27A5E76628CE356E003B9C36 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27A5E76728CE3589003B9C36 /* NewsListTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		27A5E76C28CE3B7A003B9C36 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				27A5E76D28CE3B8D003B9C36 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		27A5E77228CE3E5F003B9C36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27A5E77328CE3E72003B9C36 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27A5E77828CE4748003B9C36 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				27A5E77928CE476A003B9C36 /* ArticleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		27A5E77D28CE4B7F003B9C36 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				27A5E77E28CE4B91003B9C36 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +201,11 @@
 			dependencies = (
 			);
 			name = GoodNews;
+			packageProductDependencies = (
+				27A5E76A28CE3B6F003B9C36 /* Then */,
+				27A5E77028CE3BBC003B9C36 /* SnapKit */,
+				27A5E77628CE42BB003B9C36 /* Alamofire */,
+			);
 			productName = GoodNews;
 			productReference = 27A5E73328CE34D1003B9C36 /* GoodNews.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +278,11 @@
 				Base,
 			);
 			mainGroup = 27A5E72A28CE34D1003B9C36;
+			packageReferences = (
+				27A5E76928CE3B6F003B9C36 /* XCRemoteSwiftPackageReference "Then" */,
+				27A5E76F28CE3BBC003B9C36 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				27A5E77528CE42BB003B9C36 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 27A5E73428CE34D1003B9C36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A5E73B28CE34D1003B9C36 /* ViewController.swift in Sources */,
 				27A5E73728CE34D1003B9C36 /* AppDelegate.swift in Sources */,
+				27A5E76828CE3589003B9C36 /* NewsListTableViewController.swift in Sources */,
+				27A5E76E28CE3B8D003B9C36 /* WebService.swift in Sources */,
+				27A5E77A28CE476A003B9C36 /* ArticleViewModel.swift in Sources */,
 				27A5E73928CE34D1003B9C36 /* SceneDelegate.swift in Sources */,
+				27A5E77F28CE4B91003B9C36 /* ArticleTableViewCell.swift in Sources */,
+				27A5E77428CE3E72003B9C36 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +674,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27A5E76928CE3B6F003B9C36 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		27A5E76F28CE3BBC003B9C36 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		27A5E77528CE42BB003B9C36 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27A5E76A28CE3B6F003B9C36 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27A5E76928CE3B6F003B9C36 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		27A5E77028CE3BBC003B9C36 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27A5E76F28CE3BBC003B9C36 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		27A5E77628CE42BB003B9C36 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27A5E77528CE42BB003B9C36 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 27A5E72B28CE34D1003B9C36 /* Project object */;
 }
